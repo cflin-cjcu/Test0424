@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             view1.setImageResource(R.drawable.a2);
         }
         Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
-        b.setText(name.getText().toString()+"您的'BMI是" + df.format(bmi));
+        b.setText(name.getText().toString()+getString(R.string.aaaa) + df.format(bmi));
     }
 
     public void nextPage(View view) {
